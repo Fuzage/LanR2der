@@ -1,6 +1,6 @@
 # LanR2der
 
-<img src="assets/AppIcon.png" alt="LanR2der" width="128">
+<img src="assets/AppIcon-transparent.png" alt="LanR2der" width="128">
 
 **An iOS comic reader for LANraragi and R2, with a local bookshelf, offline downloads and privacy controls.**
 

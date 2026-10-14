@@ -1,6 +1,6 @@
 # LanR2der
 
-<img src="assets/AppIcon.png" alt="LanR2der" width="128">
+<img src="assets/AppIcon-transparent.png" alt="LanR2der" width="128">
 
 **LANraragi + R2 + Reader：支持本地拟物书架、离线下载与隐私锁的 iOS 漫画客户端。**
 

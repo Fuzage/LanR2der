@@ -13,7 +13,7 @@
 | 平台 | 当前版本 | 系统要求 | Release |
 | --- | --- | --- | --- |
 | iOS | 1.0.2（Build 4） | iOS 26.0+ | [打开 iOS Release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.2) |
-| Android | 1.4.6 | Android 9.0（API 28）+ | [打开 Android Release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.6) |
+| Android | 1.4.10 | Android 9.0（API 28）+ | [打开 Android Release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.10) |
 
 ### iOS
 
@@ -100,6 +100,13 @@ R2 的 Endpoint、桶名和访问密钥由 **服务器端**配置，App 无需�
 
 - 增加跨设备书架排列预设，可新建、切换、保存覆盖和刷新。
 - [查看 Android Release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.6)
+
+### Android 1.4.10
+
+- 切换到系统后台时模糊应用预览，返回前台后恢复；Android 9–11 隐藏后台任务截图。
+- 列表默认展开标题和搜索框；滚动时可折叠，展开后下拉刷新。
+- 修复上传时分类选择无效的问题。
+- [查看 Android Release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.10)
 
 iOS 与 Android 独立编号和发布。升级 iOS 时尽量沿用相同签名身份及 App 标识；签名工具改动标识或卸载 App 可能影响本地书架、下载和钥匙串数据。
 

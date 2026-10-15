@@ -13,7 +13,7 @@ The two platforms use independent version numbers. Open the release for your dev
 | Platform | Current version | Requirement | Release |
 | --- | --- | --- | --- |
 | iOS | 1.0.2 (Build 4) | iOS 26.0+ | [Open iOS release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.2) |
-| Android | 1.4.6 | Android 9.0 (API 28)+ | [Open Android release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.6) |
+| Android | 1.4.10 | Android 9.0 (API 28)+ | [Open Android release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.10) |
 
 ### iOS
 
@@ -61,6 +61,13 @@ The bookshelf starts empty: choose books from your library to arrange them local
 
 - Adds shared bookshelf presets: create, switch, overwrite, and refresh layouts across supported iOS and Android clients.
 - [Open the Android release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.6)
+
+### Android 1.4.10
+
+- Blurs the app preview when sent to the background and restores it on return; Android 9–11 hide the task screenshot.
+- Keeps the library header expanded at launch, folds it while scrolling, and enables pull-to-refresh when expanded.
+- Fixes category selection during uploads.
+- [Open the Android release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.10)
 
 ### iOS 1.0.1 (Build 3)
 

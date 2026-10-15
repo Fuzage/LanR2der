@@ -4,15 +4,20 @@
 
 **LANraragi + R2 + Reader：支持本地拟物书架、离线下载与隐私锁的 iOS 和 Android 漫画客户端。**
 
-[English](README.en.md) · [下载最新版 iOS IPA](https://github.com/Fuzage/LanR2der/releases/latest) · [下载 Android APK（1.4.5）](https://github.com/Fuzage/LanR2der/releases/download/android-v1.4.5/LanR2der-Android-1.4.5.apk) · [配套 LANraragi-R2 服务器](https://github.com/Fuzage/LANraragi-R2)
+[English](README.en.md) · [各平台版本与下载](https://github.com/Fuzage/LanR2der/releases) · [配套 LANraragi-R2 服务器](https://github.com/Fuzage/LANraragi-R2)
 
 ## 下载与安装
 
-进入 [Releases](https://github.com/Fuzage/LanR2der/releases)，下载 `LanR2der-1.0.1-unsigned.ipa`。当前版本为 **1.0.1（Build 3）**，要求 **iOS 26.0 或更新版本**。
+两个平台分别维护版本号。请按设备选择 Release 页面，再从 Assets 下载对应安装包。
 
-发布的是未签名 IPA，需要自行使用适合自己的签名工具签名并安装。该下载不包含开发者证书、签名账号或描述文件。校验文件 `LanR2der-1.0.1-SHA256SUMS.txt` 同时提供在 Release 中。
+| 平台 | 当前版本 | 系统要求 | Release |
+| --- | --- | --- | --- |
+| iOS | 1.0.1（Build 3） | iOS 26.0+ | [打开 iOS Release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.1) |
+| Android | 1.4.5 | Android 9.0（API 28）+ | [打开 Android Release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.5) |
 
-Android 用户请下载 [LanR2der-Android-1.4.5.apk](https://github.com/Fuzage/LanR2der/releases/download/android-v1.4.5/LanR2der-Android-1.4.5.apk)，要求 **Android 9.0（API 28）或更新版本**。APK 使用开发签名；升级安装需使用相同签名的版本。
+**iOS：**下载未签名 IPA，需要自行签名安装；Release 同时提供 SHA-256 校验文件，不包含开发者证书、签名账号或描述文件。
+
+**Android：**下载 APK 安装。此版本使用开发签名，覆盖安装及后续升级需使用同一签名身份。
 
 首次打开 App，会进入服务器连接页面。App 不包含漫画，不预设任何个人书库地址。
 
@@ -66,15 +71,22 @@ R2 的 Endpoint、桶名和访问密钥由 **服务器端**配置，App 无需�
 - 可独立启用后台画面重度模糊。
 - 服务器 API Key 和隐私凭据使用系统钥匙串保存。
 
-## 更新说明
+## Release 记录
 
-### 1.0.1 · 通用公开版
+### iOS 1.0.1（Build 3）
 
 - 首次启动要求填写自己的服务器，移除预设的个人漫画域名。
 - 保留已有用户保存的服务器配置与本地数据。
 - 包含 App 内上传、元数据与分类编辑，以及现有书架、阅读、离线下载和隐私功能。
+- [查看 iOS Release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.1)
 
-升级安装时尽量沿用相同签名身份及 App 标识；签名工具改动标识或卸载 App 可能影响本地书架、下载和钥匙串数据。
+### Android 1.4.5
+
+- Android 平台公开版，要求 Android 9.0（API 28）或更新版本。
+- 上一页使用下一页卷页动画的反向过程。
+- [查看 Android Release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.5)
+
+iOS 与 Android 独立编号和发布。升级 iOS 时尽量沿用相同签名身份及 App 标识；签名工具改动标识或卸载 App 可能影响本地书架、下载和钥匙串数据。
 
 ## 相关项目
 

@@ -2,13 +2,15 @@
 
 <img src="assets/AppIcon-transparent.png" alt="LanR2der" width="128">
 
-**An iOS comic reader for LANraragi and R2, with a local bookshelf, offline downloads and privacy controls.**
+**An iOS and Android comic reader for LANraragi and R2, with a local bookshelf, offline downloads and privacy controls.**
 
-[中文](README.md) · [Download IPA](https://github.com/Fuzage/LanR2der/releases/latest) · [Server project](https://github.com/Fuzage/LANraragi-R2)
+[中文](README.md) · [Download iOS IPA](https://github.com/Fuzage/LanR2der/releases/latest) · [Download Android APK (1.4.5)](https://github.com/Fuzage/LanR2der/releases/download/android-v1.4.5/LanR2der-Android-1.4.5.apk) · [Server project](https://github.com/Fuzage/LANraragi-R2)
 
 ## Installation
 
 Download `LanR2der-1.0.1-unsigned.ipa` from [Releases](https://github.com/Fuzage/LanR2der/releases). Version **1.0.1 (Build 3)** requires **iOS 26.0 or later**. The IPA is unsigned: sign and install it using your own signing tool. No developer certificate, account or provisioning profile is included. A SHA-256 checksum file is provided alongside the IPA.
+
+Android users can download [LanR2der-Android-1.4.5.apk](https://github.com/Fuzage/LanR2der/releases/download/android-v1.4.5/LanR2der-Android-1.4.5.apk). It requires **Android 9.0 (API 28) or later**. The APK uses a development signing key; upgrades must use a build signed with the same key.
 
 ## Connect your server
 

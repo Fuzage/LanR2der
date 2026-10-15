@@ -15,9 +15,13 @@ The two platforms use independent version numbers. Open the release for your dev
 | iOS | 1.0.1 (Build 3) | iOS 26.0+ | [Open iOS release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.1) |
 | Android | 1.4.5 | Android 9.0 (API 28)+ | [Open Android release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.5) |
 
-**iOS:** The IPA is unsigned and must be signed before installation. The release includes a SHA-256 checksum; no developer certificate, account or provisioning profile is included.
+### iOS
 
-**Android:** Install the APK from the Android release. This build uses a development signing key; updates must be signed with the same key.
+The IPA is unsigned and must be signed before installation. The release includes a SHA-256 checksum; no developer certificate, account or provisioning profile is included.
+
+### Android
+
+Install the APK from the Android release. This build uses a development signing key; updates must be signed with the same key.
 
 On first launch, the app opens server setup. It contains no comics and does not preset a personal library address.
 

@@ -15,9 +15,13 @@
 | iOS | 1.0.1（Build 3） | iOS 26.0+ | [打开 iOS Release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.1) |
 | Android | 1.4.5 | Android 9.0（API 28）+ | [打开 Android Release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.5) |
 
-**iOS：**下载未签名 IPA，需要自行签名安装；Release 同时提供 SHA-256 校验文件，不包含开发者证书、签名账号或描述文件。
+### iOS
 
-**Android：**下载 APK 安装。此版本使用开发签名，覆盖安装及后续升级需使用同一签名身份。
+下载未签名 IPA，需要自行签名安装；Release 同时提供 SHA-256 校验文件，不包含开发者证书、签名账号或描述文件。
+
+### Android
+
+下载 APK 安装。此版本使用开发签名，覆盖安装及后续升级需使用同一签名身份。
 
 首次打开 App，会进入服务器连接页面。App 不包含漫画，不预设任何个人书库地址。
 

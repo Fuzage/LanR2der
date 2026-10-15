@@ -12,8 +12,8 @@
 
 | 平台 | 当前版本 | 系统要求 | Release |
 | --- | --- | --- | --- |
-| iOS | 1.0.1（Build 3） | iOS 26.0+ | [打开 iOS Release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.1) |
-| Android | 1.4.5 | Android 9.0（API 28）+ | [打开 Android Release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.5) |
+| iOS | 1.0.2（Build 4） | iOS 26.0+ | [打开 iOS Release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.2) |
+| Android | 1.4.6 | Android 9.0（API 28）+ | [打开 Android Release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.6) |
 
 ### iOS
 
@@ -45,6 +45,7 @@ R2 的 Endpoint、桶名和访问密钥由 **服务器端**配置，App 无需�
 - 长按跟手拖动、自动让位、悬停合并文件夹、文件夹嵌套及内部排序。
 - 批量移动到其他文件夹、下载，以及从书架移除。
 - 书架布局和文件夹层级保存在本机，与服务器分类独立。
+- 可在书架左上角创建、切换、覆盖保存或刷新服务器排列预设；同一 LANraragi 实例的 iOS / Android 共用预设。需要先更新配套服务器镜像。
 
 ### 列表和阅读
 
@@ -89,6 +90,16 @@ R2 的 Endpoint、桶名和访问密钥由 **服务器端**配置，App 无需�
 - Android 平台公开版，要求 Android 9.0（API 28）或更新版本。
 - 上一页使用下一页卷页动画的反向过程。
 - [查看 Android Release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.5)
+
+### iOS 1.0.2（Build 4）
+
+- 增加跨设备书架排列预设，可新建、切换、保存覆盖和刷新。
+- [查看 iOS Release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.2)
+
+### Android 1.4.6
+
+- 增加跨设备书架排列预设，可新建、切换、保存覆盖和刷新。
+- [查看 Android Release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.6)
 
 iOS 与 Android 独立编号和发布。升级 iOS 时尽量沿用相同签名身份及 App 标识；签名工具改动标识或卸载 App 可能影响本地书架、下载和钥匙串数据。
 

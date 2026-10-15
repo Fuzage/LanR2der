@@ -12,8 +12,8 @@ The two platforms use independent version numbers. Open the release for your dev
 
 | Platform | Current version | Requirement | Release |
 | --- | --- | --- | --- |
-| iOS | 1.0.1 (Build 3) | iOS 26.0+ | [Open iOS release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.1) |
-| Android | 1.4.5 | Android 9.0 (API 28)+ | [Open Android release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.5) |
+| iOS | 1.0.2 (Build 4) | iOS 26.0+ | [Open iOS release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.2) |
+| Android | 1.4.6 | Android 9.0 (API 28)+ | [Open Android release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.6) |
 
 ### iOS
 
@@ -39,6 +39,7 @@ The app targets the LANraragi-R2 backend. R2 uploads, bundled page reading and o
 ## Features
 
 - **Local bookshelf:** wood styling, covers and cropped cover spines, adjustable books per row, nested folders, drag rearrangement, hover to group, and batch movement.
+- **Shared bookshelf presets:** create, switch, overwrite, or refresh a server preset from the bookshelf's upper-left button. iOS and Android devices connected to the same LANraragi instance share the saved tree; update the server image first.
 - **Library:** category sidebar, search, title/import-date sorting in both directions, recent reading, and batch selection.
 - **Reader:** tap the sides to turn pages, tap the center for controls, optional page curl, reading direction and configurable preloading.
 - **Metadata:** edit titles, tags, summaries and category membership; create categories.

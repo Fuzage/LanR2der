@@ -52,6 +52,16 @@ The bookshelf starts empty: choose books from your library to arrange them local
 
 ## Release history
 
+### iOS 1.0.2 (Build 4)
+
+- Adds shared bookshelf presets: create, switch, overwrite, and refresh layouts across supported iOS and Android clients.
+- [Open the iOS release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.2)
+
+### Android 1.4.6
+
+- Adds shared bookshelf presets: create, switch, overwrite, and refresh layouts across supported iOS and Android clients.
+- [Open the Android release](https://github.com/Fuzage/LanR2der/releases/tag/android-v1.4.6)
+
 ### iOS 1.0.1 (Build 3)
 
 This public build removes the preset personal server address and opens connection setup on first launch. Existing saved connections and local data are retained. It includes uploads and metadata/category editing along with the bookshelf, reader, downloads and privacy features. [View the iOS release](https://github.com/Fuzage/LanR2der/releases/tag/v1.0.1).
